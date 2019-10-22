@@ -1,7 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RailsアプリのFacebookログイン、graph API利用のサンプル
+
+以下を参考に実装。
+https://revs.runtime-revolution.com/working-with-facebook-using-devise-omniauth-koala-and-rails-5-cde5d032de02
+https://github.com/AnnieLee/blog-facebook
 
 Things you may want to cover:
 
