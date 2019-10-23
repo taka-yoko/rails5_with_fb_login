@@ -50,3 +50,5 @@ end
 gem 'devise'
 gem 'omniauth-facebook'
 gem 'koala'
+
+gem 'dotenv-rails', groups: [:development, :test]
