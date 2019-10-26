@@ -50,5 +50,7 @@ end
 gem 'devise'
 gem 'omniauth-facebook'
 gem 'koala'
+gem 'pry-byebug', group: :development
+gem "pry-rails"
 
 gem 'dotenv-rails', groups: [:development, :test]

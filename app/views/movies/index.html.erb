@@ -1,0 +1,16 @@
+<%= render "layouts/user-card" %>
+<div class='row'>
+  <div class="col-xs-6 col-xs-offset-3">
+    <% @movies.each do |movie| %>
+      <div class="row MovieCard">
+        <div class="col-xs-2">
+          <%= image_tag(movie["picture"]["data"]["url"]) %>
+        </div>
+        <div class="col-xs-10">
+          <span class="MovieCard-name"><%= movie["name"] %></span>
+          <span class="MovieCard-studio"><%= movie["studio"] %></span>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
